@@ -1,4 +1,3 @@
 # uyue
-1. 后台使用nodejs的express进行搭建
-2. 前台使用angular的方式（类似workapp)
-3. 数据库使用mysql
+### 搭的一个大概的框架；
+1. 记得在文件夹下`npm install`，下载依赖包
