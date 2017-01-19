@@ -13,6 +13,18 @@ var indexLogin = require('./routes/indexLogin');
 
 var app = express();
 
+
+app.use(session({
+    secret: 'keyboard cat',
+    name:"abc",
+    //resave: false,
+    //saveUninitialized: true,
+    cookie: { }
+}))
+
+
+
+
 global.rootPath = __dirname;
 
 // view engine setup
